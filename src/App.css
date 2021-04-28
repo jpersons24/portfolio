@@ -4,6 +4,8 @@
 :root {
   --primary-white: #fff;
   --primary-light-grey: #f4f4f4;
+  --primary-grey: #ccd1d9;
+  --primary-dark-grey: #666666;
   --primary-orange: #e0a443;
   --primary-blue: #4eb8e6;
   --primary-dark: #343A40;
@@ -216,4 +218,30 @@ nav ul li {
 
 .services .box:hover p {
   color: var(--primary-white);
+}
+
+
+/* ••••••••••• EXPERIENCE ••••••••••• */
+
+.experience-wrapper {
+  position: absolute;
+  padding: 3.125rem;
+  overflow: hidden;
+}
+
+.experience h1 {
+  text-transform: uppercase;
+  color: var(--primary-orange);
+}
+
+.experience-wrapper::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  margin-left: -0.0625rem;
+  width: 0.125rem;
+  height: 100%;
+  background: var(--primary-grey);
+  z-index: 1;
 }
