@@ -3,6 +3,8 @@ import my_logo from '../my_logo.png';
 // FONT AWESOME IMPORTS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+// import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
    return (
@@ -20,7 +22,7 @@ const Navbar = () => {
                      <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
                   </li>
                   <li className="nav-item">
-                     <a className="nav-link" href="#">About Me</a>
+                     <a className="nav-link">About Me</a>
                   </li>
                   <li className="nav-item active">
                      <a className="nav-link" href="#">Services</a>

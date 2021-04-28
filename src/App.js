@@ -1,8 +1,10 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Switch, Route } from 'react-router-dom';
+import Particles from 'react-particles-js';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
-import Particles from 'react-particles-js';
+import About from './components/About';
 
 
 function App() {
@@ -31,6 +33,7 @@ function App() {
       />
       <Navbar />
       <Header />
+      <About />
     </div>
   );
 }
