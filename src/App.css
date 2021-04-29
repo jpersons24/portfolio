@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 
+
+/* ***************** COLOR VARIABLES  **************** */
+
 :root {
   --primary-white: #fff;
   --primary-light-grey: #f4f4f4;
@@ -14,12 +17,13 @@
   --primary-black: #000000;
 }
 
-/* ************ FONT TYPE ********** */
+/* ***************** FONT TYPE  **************** */
+
 body {
   font-family: "Roboto Condensed", sans-serif !important;
 }
 
-/* ••••••••••• NAVBAR ••••••••••• */
+/* ***************** NAVBAR **************** */
 
 .navbar {
   z-index: 2;
@@ -61,7 +65,7 @@ nav ul li {
 }
 
 
-/* ••••••••••• HEADER ••••••••••• */
+/* ***************** HEADER **************** */
 
 .header-wrapper {
   position: relative;
@@ -122,7 +126,7 @@ nav ul li {
 }
 
 
-/* ••••••••••• PARTICLES ••••••••••• */
+/* ***************** PARTICLES **************** */
 
 .tsparticles-canvas-el {
   position: absolute;
@@ -137,7 +141,7 @@ nav ul li {
   }
 }
 
-/* ••••••••••• ABOUT ••••••••••• */
+/* ***************** ABOUT **************** */
 
 .photo-wrap {
   display: flex;
@@ -165,7 +169,7 @@ nav ul li {
 }
 
 
-/* ••••••••••• SERVICES ••••••••••• */
+/* ***************** SERVICES **************** */
 
 .services {
   text-align: center;
@@ -223,7 +227,7 @@ nav ul li {
 }
 
 
-/* ••••••••••• EXPERIENCE ••••••••••• */
+/* ***************** EXPERIENCE **************** */
 
 .experience-wrapper {
   position: relative;
@@ -360,4 +364,21 @@ nav ul li {
   opacity: 70%;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+}
+
+
+/* ***************** OVERFLOW BOX ***************** */
+
+.portfolio-image-popupbox {
+  width: 45rem;
+  padding: 0 0.5rem;
+}
+
+.hyper-link {
+  cursor: pointer;
+  color: var(--primary-orange);
+}
+
+.hyper-link:hover {
+  color: var(--primary-red);
 }
