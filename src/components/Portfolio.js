@@ -79,6 +79,25 @@ const Portfolio = () => {
    }
 
    // TASK MANAGER
+   const openTaskManager = () => {
+      const content = (
+         <>
+            <img className="portfolio-image-popupbox" src={cityGuide} alt="Task manager project..." />
+            <p>Description of the project. Make sure to link the github repository below.</p>
+            <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/jpersons24/discourse")}>https://github.com/jpersons24/discourse</a>
+         </>
+      )
+      PopupboxManager.open({ content })
+   }
+
+   const popUpBoxConfigTaskManager = {
+      titleBar: {
+         enable: true,
+         text: "Portfolio Project",
+      },
+      fadeIn: true,
+      fadeInSpeed: 500,
+   }
 
 
    return (
@@ -104,7 +123,7 @@ const Portfolio = () => {
                   <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                </div>
             {/*  -  */}
-               <div className="portfolio-image-box">
+               <div className="portfolio-image-box" onClick={openTaskManager}>
                   <img className="portfolio-image" src={taskManager} alt="Task manager project..." />
                   <div className="overflow"></div>
                   <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
@@ -114,6 +133,7 @@ const Portfolio = () => {
          <PopupboxContainer {...popUpBoxConfigNetflix} />
          <PopupboxContainer {...popUpBoxConfigCityGuide} />
          <PopupboxContainer {...popUpBoxConfigPortfolio} />
+         <PopupboxContainer {...popUpBoxConfigTaskManager} />
       </div>
    )
 }
