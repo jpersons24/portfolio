@@ -1,9 +1,9 @@
 import React from 'react';
 // IMAGE IMPORTS
-import netflix from '../images/netflix.png';
-import cityGuide from '../images/city-guide-app.png';
-import portfolio from '../images/portfolio.png';
-import taskManager from '../images/task-manager.png';
+import discourse from '../discourse_img.png';
+import overlay from '../overlay_img.png';
+import gamebuster from '../gamebuster_img.png';
+import hustler from '../hustler_img.png';
 // FONT AWESOME IMPORTS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearchPlus } from '@fortawesome/free-solid-svg-icons'
@@ -16,84 +16,84 @@ import 'react-popupbox/dist/react-popupbox.css';
 const Portfolio = () => {
 
    // NETFLIX CLONE
-   const openNetflix = () => {
+   const openDiscourse = () => {
       const content = (
          <>
-            <img className="portfolio-image-popupbox" src={netflix} alt="Netflix Clone..." />
-            <p>Description of the project. Make sure to link the github repository below.</p>
+            <img className="portfolio-image-popupbox" src={discourse} alt="Discourse social chatting app..." />
+            <p>Chat app build with React front end and Ruby on Rails back end. GetStream API and actioncable used for chatting feature.</p>
             <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/jpersons24/discourse")}>https://github.com/jpersons24/discourse</a>
          </>
       )
       PopupboxManager.open({ content })
    }
 
-   const popUpBoxConfigNetflix = {
+   const popUpBoxConfigDiscourse = {
       titleBar: {
          enable: true,
-         text: "Netflix Clone Project",
+         text: "More deployed projects coming soon...",
       },
       fadeIn: true,
       fadeInSpeed: 500,
    }
 
-   // CITY GUIDE
-   const openCityGuide = () => {
+   // Overlay
+   const openOverlay = () => {
       const content = (
          <>
-            <img className="portfolio-image-popupbox" src={cityGuide} alt="City Guide App..." />
-            <p>Description of the project. Make sure to link the github repository below.</p>
-            <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/jpersons24/discourse")}>https://github.com/jpersons24/discourse</a>
+            <img className="portfolio-image-popupbox" src={overlay} alt="React online gambling app" />
+            <p>Online sports gambling app with social aspect!</p>
+            <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/jpersons24/overlay")}>https://github.com/jpersons24/overlay</a>
          </>
       )
       PopupboxManager.open({ content })
    }
 
-   const popUpBoxConfigCityGuide = {
+   const popUpBoxConfigOverlay = {
       titleBar: {
          enable: true,
-         text: "City Guide App",
+         text: "More deployed projects coming soon...",
       },
       fadeIn: true,
       fadeInSpeed: 500,
    }
 
    // PORTFOLIO PROJECT
-   const openPortfolio = () => {
+   const openGamebuster = () => {
       const content = (
          <>
-            <img className="portfolio-image-popupbox" src={cityGuide} alt="Portfolio Project..." />
-            <p>Description of the project. Make sure to link the github repository below.</p>
-            <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/jpersons24/discourse")}>https://github.com/jpersons24/discourse</a>
+            <img className="portfolio-image-popupbox" src={gamebuster} alt="False e-commerce app" />
+            <p>False e-commerce website for renting video games.</p>
+            <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/jpersons24/gamebuster")}>https://github.com/jpersons24/gamebuster</a>
          </>
       )
       PopupboxManager.open({ content })
    }
 
-   const popUpBoxConfigPortfolio = {
+   const popUpBoxConfigGamebuster = {
       titleBar: {
          enable: true,
-         text: "Portfolio Project",
+         text: "More deployed projects coming soon...",
       },
       fadeIn: true,
       fadeInSpeed: 500,
    }
 
    // TASK MANAGER
-   const openTaskManager = () => {
+   const openHustler = () => {
       const content = (
          <>
-            <img className="portfolio-image-popupbox" src={cityGuide} alt="Task manager project..." />
-            <p>Description of the project. Make sure to link the github repository below.</p>
-            <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/jpersons24/discourse")}>https://github.com/jpersons24/discourse</a>
+            <img className="portfolio-image-popupbox" src={hustler} alt="E-commerce app" />
+            <p>Fiverr clone application. Build with Ruby on Rails.</p>
+            <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/jpersons24/hustler")}>https://github.com/jpersons24/hustler</a>
          </>
       )
       PopupboxManager.open({ content })
    }
 
-   const popUpBoxConfigTaskManager = {
+   const popUpBoxConfigHustler = {
       titleBar: {
          enable: true,
-         text: "Portfolio Project",
+         text: "More deployed projects coming soon...",
       },
       fadeIn: true,
       fadeInSpeed: 500,
@@ -101,39 +101,39 @@ const Portfolio = () => {
 
 
    return (
-      <div className="portfolio-wrapper">
+      <div id="portfolio" className="portfolio-wrapper">
          <div className="container">
             <h1 className="text-uppercase text-center py-5">Portfolio</h1>
             <div className="image-box-wrapper row justify-content-center">
-               <div className="portfolio-image-box" onClick={openNetflix}>
-                  <img className="portfolio-image" src={netflix} alt="Netflix Clone..." />
+               <div className="portfolio-image-box" onClick={openDiscourse}>
+                  <img className="portfolio-image" src={discourse} alt="Discourse social chatting app..." />
                   <div className="overflow"></div>
                   <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                </div>
             {/*  -  */}
-               <div className="portfolio-image-box" onClick={openCityGuide}>
-                  <img className="portfolio-image" src={cityGuide} alt="City Guide project..." />
+               <div className="portfolio-image-box" onClick={openOverlay}>
+                  <img className="portfolio-image" src={overlay} alt="React online gambling" />
                   <div className="overflow"></div>
                   <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                </div>
             {/*  -  */}
-               <div className="portfolio-image-box" onClick={openPortfolio}>
-                  <img className="portfolio-image" src={portfolio} alt="Portfolio project..." />
+               <div className="portfolio-image-box" onClick={openGamebuster}>
+                  <img className="portfolio-image" src={gamebuster} alt="E-commerce app" />
                   <div className="overflow"></div>
                   <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                </div>
             {/*  -  */}
-               <div className="portfolio-image-box" onClick={openTaskManager}>
-                  <img className="portfolio-image" src={taskManager} alt="Task manager project..." />
+               <div className="portfolio-image-box" onClick={openHustler}>
+                  <img className="portfolio-image" src={hustler} alt="Fiverr clone built with Ruby on Rails" />
                   <div className="overflow"></div>
                   <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                </div>
             </div>
          </div>
-         <PopupboxContainer {...popUpBoxConfigNetflix} />
-         <PopupboxContainer {...popUpBoxConfigCityGuide} />
-         <PopupboxContainer {...popUpBoxConfigPortfolio} />
-         <PopupboxContainer {...popUpBoxConfigTaskManager} />
+         <PopupboxContainer {...popUpBoxConfigDiscourse} />
+         <PopupboxContainer {...popUpBoxConfigOverlay} />
+         <PopupboxContainer {...popUpBoxConfigGamebuster} />
+         <PopupboxContainer {...popUpBoxConfigHustler} />
       </div>
    )
 }

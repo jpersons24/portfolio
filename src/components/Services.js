@@ -6,7 +6,7 @@ import { faBriefcase, faCogs } from '@fortawesome/free-solid-svg-icons';
 
 const Services = () => {
    return (
-      <div className="services">
+      <div id="services" className="services">
          <h1 className="py-5">My Services</h1>
          <div className="row">
             <div className="col-lg-3 col-md-6 col-sm-6">
@@ -15,7 +15,7 @@ const Services = () => {
                      <FontAwesomeIcon className="icon" icon={faCogs} size="2x" />
                   </div>
                   <h3>Software Engineering</h3>
-                  <p>Comfortable working in group environment. Experienced in git collaboration and Agile methods</p>
+                  <p>Experienced working in group environments, collaborating with git workflow and Agile methods</p>
                </div>
             </div>
             {/*  - */}
@@ -45,7 +45,7 @@ const Services = () => {
                      <FontAwesomeIcon className="icon" icon={faBriefcase} size="2x" />
                   </div>
                   <h3>Freelancing</h3>
-                  <p>Any challenge is welcome! Please email via contact form for inquiries</p>
+                  <p>No project too big or too small!!! Please email me via contact form below for inquiries</p>
                </div>
             </div>
          </div>

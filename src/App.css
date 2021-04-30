@@ -56,7 +56,7 @@ nav ul li {
   height: 6rem !important;
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
@@ -72,7 +72,7 @@ nav ul li {
   background: url(keyboard-background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -164,7 +164,6 @@ nav ul li {
 @media(max-width: 468px) {
   .profile-img {
     width: 10rem;
-
   }
 }
 
@@ -329,6 +328,7 @@ nav ul li {
 
 .portfolio-image {
   width: 15rem;
+  height: 8rem;
   border: 1px solid var(--primary-orange);
   padding: 0 0.5rem;
 }
@@ -385,6 +385,10 @@ nav ul li {
 
 .hyper-link:hover {
   color: var(--primary-red);
+}
+
+.popupbox-wrapper {
+  height: 680px;
 }
 
 @media(max-width: 768px) {
@@ -510,7 +514,6 @@ textarea.form-control {
   .contacts {
     overflow-x: hidden;
   }
-
   .contacts .container {
     padding: 0 1rem;
   }
@@ -518,3 +521,39 @@ textarea.form-control {
     padding: 0 0.4rem;
   }
 }
+
+
+/* ***************** FOOTER ***************** */
+
+
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+.social-links {
+  padding: 1.5rem;
+}
+
+
+/* ***************** media ***************** */
+
+/* @media(max-width: 768px) {
+
+} */
