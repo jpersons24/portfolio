@@ -467,7 +467,7 @@ nav ul li {
 }
 
 .contact-btn {
-  margin: -0.4rem 0 0 0;
+  margin: 1rem 0 0 0;
   width: 100%;
   background: none;
 }
@@ -491,6 +491,16 @@ input.form-control {
 
 textarea.form-control {
   margin: 0.3rem 0;
+}
+
+.success-message {
+  color: var(--primary-blue);
+  font-weight: 900;
+}
+
+.errors-message {
+  color: var(--primary-orange);
+  text-align: left;
 }
 
 
