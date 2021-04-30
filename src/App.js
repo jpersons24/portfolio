@@ -1,6 +1,6 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Switch, Route } from 'react-router-dom';
+// import { Switch, Route } from 'react-router-dom';
 import Particles from 'react-particles-js';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
@@ -8,6 +8,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Experience from './components/Experience';
 import Portfolio from './components/Portfolio';
+import Contacts from './components/Contacts';
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
       <Services />
       <Experience />
       <Portfolio />
+      <Contacts />
     </div>
   );
 }
