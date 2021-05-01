@@ -48,7 +48,7 @@ const Experience = () => {
                   </p>
                   <h5>Push Fitness - Certified Personal Trainer</h5>
                   <p>
-                     Tested highly volatile and toxic chemicals for specific gravity, chemical characteristics, pH levels, concentrations and viscosities. Initiated and controlled dynamic manufacturing of 15,000 gallons of industrial grade bleach daily. Jones supplies NYC, Los Angeles and multiple regions across the country chlorine and other chemical necessary for water purification.
+                     Consulted with clients to implement personalized program and accountability processes for maximum results. Designed and lead group class program which resulted in monthly increase in members registered each month
                   </p>
                </div>
             </div>
