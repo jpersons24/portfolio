@@ -18,7 +18,7 @@ const About = () => {
                      Hi, thanks for visting my page! My name is Jakob Persons. I am a full stack software developer, proficient with Ruby on Rails, JavaScript(ES6), HTML, CSS, React and more.
                   </p> 
                   <p>
-                     My experiences in exercise science and sales have developed strong communication, leadership and target acheivement skills. Ranging from small private environments to large public corporations my desire for consistent improvement makes me confident in my ability to positively impacts results, increase workflow efficieny and contirbute to a winning culture.
+                     My experiences in exercise science and sales have developed strong communication, leadership and target acheivement skills. Ranging from small private environments to large public corporations my desire for consistent improvement makes me confident in my ability to positively impacts results, increase workflow efficieny and contribute to a winning culture.
                   </p>
                </div>
             </div>
