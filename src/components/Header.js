@@ -26,6 +26,7 @@ const Header = () => {
                loop
             />
             <Link smooth={true} to="contact" offset={-110} className="btn-main-offer">Contact</Link>
+            
          </div>
       </div>
    )

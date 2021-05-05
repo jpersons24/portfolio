@@ -161,6 +161,18 @@ nav ul li {
   text-transform: uppercase;
 }
 
+#linkedin {
+  color: #2466C2;
+}
+
+#twitter {
+  color: #38A1F2;
+}
+
+#medium {
+  color: var(--primary-black);
+}
+
 @media(max-width: 468px) {
   .profile-img {
     width: 10rem;
