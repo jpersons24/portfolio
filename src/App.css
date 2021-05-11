@@ -173,6 +173,10 @@ nav ul li {
   color: var(--primary-black);
 }
 
+#github {
+  color: var(--primary-black);
+}
+
 @media(max-width: 468px) {
   .profile-img {
     width: 10rem;

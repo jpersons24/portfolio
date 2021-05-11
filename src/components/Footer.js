@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faTwitter, faMedium } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faTwitter, faMedium, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-scroll';
 
 
@@ -51,6 +51,9 @@ const Footer = () => {
                      </a>
                      <a className="social-links" href="https://jakobep24.medium.com/">
                         <FontAwesomeIcon className="icon" icon={faMedium} size="2x" />
+                     </a>
+                     <a className="social-links" href="https://github.com/jpersons24">
+                        <FontAwesomeIcon className="icon" icon={faGithub} size="2x" />
                      </a>
                   </div>
                </div>
