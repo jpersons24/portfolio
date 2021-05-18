@@ -18,12 +18,32 @@ const Portfolio = () => {
    // NETFLIX CLONE
    const openDiscourse = () => {
       const content = (
-         <>
-            <img className="portfolio-image-popupbox" src={discourse} alt="Discourse social chatting app..." />
-            <p>Chat app build with React front end and Ruby on Rails back end. GetStream API and actioncable used for chatting feature.</p>
-            <b>Github:</b> <a className="hyper-link" onClick={() => window.open("https://github.com/jpersons24/discourse")}>https://github.com/jpersons24/discourse</a>
-         </>
-      )
+        <>
+          <img
+            className="portfolio-image-popupbox"
+            src={discourse}
+            alt="Discourse social chatting app..."
+          />
+          <p>
+            Chat app build with React front end and Ruby on Rails back end.
+            GetStream API and actioncable used for chatting feature.
+          </p>
+          <b>Github:</b>{" "}
+          <a
+            className="hyper-link"
+            onClick={() =>
+              window.open("https://github.com/jpersons24/discourse")
+            }>
+            https://github.com/jpersons24/discourse
+          </a>
+          <b>Netlify:</b>{" "}
+          <a
+            className="hyper-link"
+            onClick={() => window.open("https://discourseapp.netlify.app/")}>
+            https://discourseapp.netlify.app/
+          </a>
+        </>
+      );
       PopupboxManager.open({ content })
    }
 
