@@ -16,10 +16,12 @@ const Header = () => {
                   "Ruby on Rails",
                   "Git",
                   "PostgreSQL",
+                  "Python",
+                  "Redux",
+                  "Java",
+                  "Kotlin",
                   "HTML",
                   "CSS",
-                  "Python",
-                  "BootStrap"
                ]} 
                typeSpeed={40}
                backSpeed={60}

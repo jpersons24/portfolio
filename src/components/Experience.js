@@ -10,9 +10,11 @@ const Experience = () => {
             <div className="timeline-block timeline-block-right">
                <div className="marker"></div>
                <div className="timeline-content">
-                  <h3>2021</h3>
-                  <h5>Nurture Difference Hackathon</h5>
-                  <p>Competed in the Nurture Difference Hackathon in a group of 4 other software developers. Through strong collaboration and organization, in just one week we produced Discourse - an app that encourages positive discourse between strangers that have similar interests, yet unknown differences on social and political topics</p>
+                  <h3>July 2021-October 2022</h3>
+                  <h5>Spruce - Associate Software Engineer</h5>
+                  <p>
+                    Spruce is a proptech company that deals with title insurance in commercial, iBuyer and single family residences. Working in an Agile environment and working cross funcitonally with business stakeholders I was responsible for building user interfaces for both internal and external users.
+                  </p>
                </div>
             </div>
             {/*  -  */}
@@ -41,11 +43,7 @@ const Experience = () => {
             <div className="timeline-block timeline-block-left">
                <div className="marker"></div>
                <div className="timeline-content">
-                  <h3>2017-2019</h3>
-                  <h5>JCI Jones - Chemical Operator</h5>
-                  <p>
-                     Tested highly volatile and toxic chemicals for specific gravity, chemical characteristics, pH levels, concentrations and viscosities. Initiated and controlled dynamic manufacturing of 15,000 gallons of industrial grade bleach daily. Jones supplies NYC, Los Angeles and multiple regions across the country chlorine and other chemical necessary for water purification.
-                  </p>
+                  <h3>2015-2019</h3>
                   <h5>Push Fitness - Certified Personal Trainer</h5>
                   <p>
                      Consulted with clients to implement personalized program and accountability processes for maximum results. Designed and lead group class program which resulted in monthly increase in members registered each month
