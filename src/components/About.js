@@ -28,7 +28,7 @@ const About = () => {
 						</p>
 						<h1 className="about-heading">my story</h1>
 						<p>
-							My story is not what you would say traditional. I graduated with an exercise science degree, dove into sales career head first and landed on my feet in the software programming universe! Starting at a bootcamp with barely any knowledge, I've grown into a full stack software engineer who enjoys taking on any challenge, consuming knowledge, keeping up to date with a constantly changing space and always finding a way to express my personality in my work.
+							My story is not what you would call traditional. I graduated with an exercise science degree, dove into sales career head first and landed on my feet in the software programming universe! Starting at a bootcamp with barely any knowledge, I've grown into a full stack software engineer who enjoys taking on any challenge, consuming knowledge, keeping up to date with a constantly changing space and always finding a way to express my personality in my work.
 						</p>
 						<div className="d-flex justify-content-center">
 							<a
